@@ -1,0 +1,95 @@
+[Root]
+Most Recent Package=Client
+
+
+[Package|Client|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Timothy\My Documents\Programing\Visual Basic\Proxy\Package\User
+
+[Package|Client|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Client|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Client|Files Found]
+
+[Package|Client|Files Released]
+
+[Package|Client|Missing Dependency Information]
+C:\Documents and Settings\Timothy\My Documents\Programing\Visual Basic\Proxy\Binary\Password Change.exe=
+
+[Package|Client|Out-of-Date Dependency Information]
+
+[Package|Client|Files Added]
+C:\Documents and Settings\Timothy\My Documents\Programing\Visual Basic\Proxy\Binary\Password Change.exe=
+
+[Package|Client|Files Removed]
+
+[Package|Client|Files In Project]
+C:\Documents and Settings\Timothy\My Documents\Programing\Visual Basic\Proxy\Binary\Login.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\WINDOWS\system32\comcat.dll=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6stkit.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\Timothy\My Documents\Programing\Visual Basic\Proxy\Binary\Password Change.exe=Yes
+
+[Package|Client|Configure Registry Files]
+Applicable=No
+
+[Package|Client|Configure Remote Servers]
+Applicable=No
+
+[Package|Client|Install Locations]
+C:\Documents and Settings\Timothy\My Documents\Programing\Visual Basic\Proxy\Binary\Login.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\WINDOWS\system32\comcat.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6stkit.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\Timothy\My Documents\Programing\Visual Basic\Proxy\Binary\Password Change.exe=$(AppPath)
+
+[Package|Client|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Timothy\My Documents\Programing\Visual Basic\Proxy\Binary\Login.exe=No
+C:\Documents and Settings\Timothy\My Documents\Programing\Visual Basic\Proxy\Binary\Password Change.exe=No
+
+[Package|Client|Distribution]
+Type=single
+Size=
+Title=Tim Internet Charger (User Side)
+
+[Package|Client|IconGroups]
+Group0=Tim Internet Charger (User Side)
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Client|Tim Internet Charger (User Side)]
+Icon1=Login.exe
+Title1=Tim Internet Charger (User Side)
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Client|Package]
+PackageFolder=C:\Documents and Settings\Timothy\My Documents\Programing\Visual Basic\Proxy\Package\User
+ProjectFolder=C:\Documents and Settings\Timothy\My Documents\Programing\Visual Basic\Proxy
+ServerSideCab=
+File1=C:\Documents and Settings\Timothy\My Documents\Programing\Visual Basic\Proxy\Package\User\setup.exe
+File2=C:\Documents and Settings\Timothy\My Documents\Programing\Visual Basic\Proxy\Package\User\Setup.Lst
+File3=C:\Documents and Settings\Timothy\My Documents\Programing\Visual Basic\Proxy\Package\User\Login.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
